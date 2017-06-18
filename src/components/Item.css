@@ -1,0 +1,36 @@
+.box{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.box .title{
+  display: block;
+  background: #333;
+  margin-right: 180px;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 20px;
+  border-radius: 5px;
+
+}
+
+.box .btn{
+  position: absolute;
+  top:0;
+  right:0;
+  display: inline-block;
+  background: #333;
+  border-radius: 5px;
+  width: 80px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.box .btn:hover{
+  background: #777;
+  color:#000;
+}
+
+.box .btn.edit{
+  right:90px;
+}
