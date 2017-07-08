@@ -1,0 +1,20 @@
+
+.floating{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #eb4b53;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.floating .fa-plus{
+  color: #fff;
+  line-height: 70px;
+}

@@ -21,7 +21,6 @@ input:disabled{background: none;}
   top: 40px;
   cursor: pointer;
   background: #fff;
-
 }
 
 .header{
@@ -215,7 +214,6 @@ input:disabled{background: none;}
 }
 
 
-
 .insert label{
   position: absolute;
   left:10px;
@@ -224,7 +222,6 @@ input:disabled{background: none;}
   text-transform: uppercase;
   transition: all 0.3s;
 }
-
 
 input:focus + label, input:valid + label {
   top:-20px;
