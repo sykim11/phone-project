@@ -1,0 +1,18 @@
+> npm install --save react-transition-group@1.x
+
+restfull 방식
+> npm run build
+> npm install --save express body-parse-cors
+(express : 프레임워크)
+(cors : 두개의 물리적인 데이터는 원래 서로 통신 가능하지않음 보안상 막아둠, 
+	cors는 기본적으로 막아준 것을 열어준다 생각)
+> npm install -g supervisor
+> supervisor server.js
+
+
+
+// 프론트cmd
+방법1. > npm install --save jquery
+index.js에서 쓰기 편하게 import ( $ from 'jquery'; ) 제이쿼리 연결
+방법2. > npm install --save axios 
+react 스러운 방법
