@@ -1,0 +1,33 @@
+body{
+    background: #f1f1f1;
+    min-width: 1280px;
+}
+p{padding: 0;margin: 0;}
+li{list-style: none;}
+input:disabled{background: none;}
+.fa-pencil{
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  cursor: pointer;
+  background: #fff;
+}
+.fa-check{
+  width: 18px;
+
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  cursor: pointer;
+  background: #fff;
+}
+.header{height:130px;background: #eb4b43;}
+.header h1{
+  width: 1024px;
+  height: 130px;
+  margin: 0 auto;
+  text-align: left;
+  color:#fff;
+  font:bold 20px/130px 'Tahoma';
+}

@@ -4,12 +4,11 @@ $(document).ready(function(){
     attr : 속성의 명과 속성의 값을 바꿀때
     prop : ture false를 반환
   */
-    
+
   $(document).on('click','.edit',function(){
     $(this).hide();
     $(this).siblings('.check').show();
     $(this).siblings('.title').children('input').prop('disabled',false);
-
   });
   $(document).on('click','.check',function(){
     $(this).hide();

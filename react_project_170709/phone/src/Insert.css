@@ -1,0 +1,112 @@
+
+.popup{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #20b2aa;
+  /*transition: all 0.3s;*/
+  opacity:0;
+  transition:
+    opacity .7s ease,
+    right 0s ease .7s,
+    bottom 0s ease .7s,
+    transform 0s ease .7s,
+    width 0s ease .7s,
+    height 0s ease .7s,
+    border-radius 0s ease .7s;
+}
+
+.popup.center{
+  right:50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+  border-radius: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition:
+    right .3s ease,
+    bottom .3s ease,
+    transform .3s ease,
+    width .5s ease .3s,
+    height .5s ease .3s,
+    border-radius .5s ease .3s;
+}
+
+/*.popup.wide{
+  width: 100%;
+  height: 100%;
+  bottom:35px;
+  right:35px;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  background: yellowgreen;
+  transition-delay: 0s;
+}*/
+
+.insert{
+  text-align: center;
+  opacity: 0;
+  transition: all .6s ease .8s;
+}
+
+
+.insert.show{
+  transform: translateY(100px);
+  opacity: 1;
+  top:80px;
+}
+
+.insert h2{
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.group {
+  position: relative;
+  width:300px;
+  margin: 0 auto 40px;
+}
+
+.insert input{
+  width: 300px;
+  padding: 10px 5px 10px;
+  background: none;
+  border:0;
+  border-bottom: 2px solid #fff;
+  outline: none;
+}
+
+
+
+.insert label{
+  position: absolute;
+  left:10px;
+  top:5px;
+  color:#fff;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+
+input:focus + label, input:valid + label {
+  top:-20px;
+  font-size:14px;
+  color:#eee;
+}
+
+.insert .btn_area{
+  display: inline-block;
+}
+
+.insert button{
+  padding: 10px 20px;
+  background: #eb3d54; color:#fff;
+  cursor: pointer; font-size: 20px;
+  border: 0; margin: 20px 10px;
+}
