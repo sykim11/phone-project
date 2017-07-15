@@ -1,0 +1,5 @@
+REACT ROUTER
+>create-react-app router
+>cd router
+>npm run start
+>npm install --save react-router-dom
